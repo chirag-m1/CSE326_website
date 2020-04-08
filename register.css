@@ -1,0 +1,60 @@
+body
+    {
+	    margin:0px;
+	    background:url(images/bottle.jpg);
+	   
+	    color:#000000;
+        font-weight: bold;
+	    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    #main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto; 
+    border-radius:5px; padding-left:10px; margin-top:100px; border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; padding-top:20px;
+    }
+    
+
+    #main table{font-family:"Comic Sans MS", cursive;}
+
+
+    #main .tb{height:28px; width:230px; border:1px solid black; color:black; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;}
+    
+
+ #main .tb:focus{height:28px; border:1px solid black; outline:none; border-left:5px solid #f7f7f7;}
+
+
+    #main .btn{width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid black; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: black; letter-spacing: 1px; 
+    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+  
+    #main .btn:hover{background-color:#FFF5EE; outline:none;  border-radius: 2px; color:#6495ED; border:1px solid #00BFFF;
+    -webkit-transition: 1s; -moz-transition: 1s; transition: 0.6s; }
+button{
+    background-color:bisque;
+    border:2px solid;
+    border-color:black;
+    color:darkgreen;
+    padding: 15px 24px;
+    font-size: 18px;
+    border-bottom-style:double;
+    font-family:"Lucida Console","Monaco",monospace;
+    border-bottom-left-radius: 30%;
+}
+.pp{
+    background:linear-gradient(30deg,#556B2F,#00FF00,#5F9EA0);
+    font-size: 30px;
+    text-align: center;
+    background: 
+    }
+a.other{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+a.other:hover{
+    background-color: white;
+    color: black;
+}
